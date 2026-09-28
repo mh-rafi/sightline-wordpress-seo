@@ -1,0 +1,63 @@
+/* Sightline SEO — admin. Deliberately small: WordPress already supplies a
+   design system, and a settings screen that ignores it is a settings screen
+   that looks broken after the next core release. */
+
+.sightline-wrap .sightline-card {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    padding: 4px 20px 20px;
+    margin: 20px 0;
+    max-width: 960px;
+}
+
+.sightline-wrap .sightline-card h2 { margin-top: 16px; }
+
+.sightline-callout {
+    border-left: 4px solid #d63638;
+    background: #fcf0f1;
+    padding: 12px 14px;
+    max-width: 760px;
+}
+
+.sightline-empty { color: #646970; font-style: italic; }
+
+.sightline-panel .sightline-field { margin: 0 0 16px; }
+.sightline-panel label { display: block; margin-bottom: 4px; }
+.sightline-hint { display: block; color: #646970; font-size: 12px; margin-top: 4px; }
+.sightline-check { display: block; margin: 2px 0; }
+.sightline-panel fieldset legend { margin-bottom: 6px; }
+.sightline-panel details.sightline-social { margin: 0 0 16px; }
+.sightline-panel details.sightline-social summary { cursor: pointer; font-weight: 600; margin-bottom: 10px; }
+
+.sightline-counter { float: right; font-size: 12px; color: #646970; }
+.sightline-counter.is-over { color: #d63638; font-weight: 600; }
+
+.sightline-image-preview img { max-width: 200px; height: auto; display: block; margin-bottom: 6px; }
+
+.sightline-types { max-width: 1100px; margin-bottom: 24px; }
+.sightline-types td { vertical-align: top; }
+
+.sightline-redirects code { word-break: break-all; }
+.sightline-badge {
+    display: inline-block;
+    font-size: 11px;
+    background: #f0f0f1;
+    border-radius: 3px;
+    padding: 1px 6px;
+    color: #50575e;
+}
+.sightline-inactive { opacity: .55; }
+.sightline-muted { color: #8c8f94; }
+.sightline-row-actions a { margin-right: 10px; }
+.sightline-row-actions .sightline-delete { color: #b32d2e; }
+
+.sightline-source { margin-bottom: 6px; display: flex; gap: 8px; align-items: center; }
+
+.sightline-page-list { margin: 6px 0 12px; }
+.sightline-page-list li { margin: 0 0 3px; }
+
+.sightline-examples { color: #646970; font-size: 12px; }
+.sightline-notes li { margin-bottom: 6px; }
+
+#sightline-import-bar { width: 100%; max-width: 480px; height: 20px; }
+.sightline-progress-label { font-weight: 600; }

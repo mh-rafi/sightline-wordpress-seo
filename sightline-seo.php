@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name:       Sightline SEO
- * Plugin URI:        https://github.com/uilibrary/sightline-seo
+ * Plugin URI:        https://github.com/mh-rafi/sightline-wordpress-seo
  * Description:       Titles, descriptions, social cards, structured data, sitemaps and redirects — with correct Product schema for digital-download stores, and a migrator out of Rank Math.
  * Version:           1.0.0
  * Requires at least: 6.0
